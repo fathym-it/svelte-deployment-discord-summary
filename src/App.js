@@ -1,4 +1,5 @@
 import logo from './fullLogo.png';
+import final from './pt.png';
 import './App.css';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -31,6 +32,7 @@ function App() {
               backgroundColor: '#4a918e',
               padding: '30px'
             }}>
+               <img src={final} className="App-logo" alt="logo" />
             <p>In this livestream, we'll fork Fathym's Svelte template and use it to build a photo gallery – like “Photo Timez” above.
               We'll push the photo gallery to GitHub and show how easy it is to update to any GitHub build version in Fathym.
               Then, we'll preview the live photo gallery hosted in Fathym and discuss some of the cool things Fathym's doing behind the scenes with micro frontends to make your life easier.</p>
