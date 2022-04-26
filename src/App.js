@@ -66,7 +66,7 @@ function App() {
             </div>
             <br/>
             <div>
-              Photos for your gallary
+              Photos for your gallery
             </div>
           </Paper>
           <Paper elevation={3}
@@ -83,7 +83,7 @@ function App() {
             <br />
             <a href="https://www.fathym.com/blog/articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries" rel="noreferrer" target="_blank">Why you should deploy a Svelte website instead of watching documentaries</a>
             <br />
-            <a href="https://www.fathym.com/svelte-deployment" rel="noreferrer" target="_blank">See How Svetle compares to other Javascript frameworks</a>
+            <a href="https://www.fathym.com/svelte-deployment" rel="noreferrer" target="_blank">See How Svelte compares to other Javascript frameworks</a>
           </Paper>
         </Box>
       </div>
