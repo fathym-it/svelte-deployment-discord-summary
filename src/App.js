@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>Welcome to Fathym's first Discord live stream</h3>
-        <h4>Don't have an invite? Don't worry join <a href="https://discord.gg/qh3eCBgpC5">here</a></h4>
+        <h4>Don't have an invite? Don't worry join <a href="https://discord.gg/qh3eCBgpC5" rel="noreferrer" target="_blank">here</a></h4>
       </header>
       <div>
         <Box
@@ -49,21 +49,21 @@ function App() {
             <hr />
             <div>
               <p>
-                Fathym Account <a href="https://www.fathym.com/dashboard/" target="_blank">Signup</a>
+                Fathym Account <a href="https://www.fathym.com/dashboard/" target="_blank" rel="noreferrer">Signup</a>
               </p>
             </div>
             <div>
               <p>
-                Github Account <a href="https://github.com/join" target="_blank">Sign up</a>
+                Github Account <a href="https://github.com/join" target="_blank" rel="noreferrer">Sign up</a>
               </p>
             </div>
             <div>
               <p>
-                VS Code <a href="https://code.visualstudio.com/download" target="_blank">Download</a>
+                VS Code <a href="https://code.visualstudio.com/download" target="_blank" rel="noreferrer">Download</a>
               </p>
             </div>
             <div>
-              Nodejs <a href="https://nodejs.org/en/download/" target="_blank">Download</a>
+              Nodejs <a href="https://nodejs.org/en/download/" target="_blank" rel="noreferrer">Download</a>
             </div>
             <br/>
             <div>
@@ -80,11 +80,11 @@ function App() {
             }}>
             <h3>Want to learn more?</h3>
             <hr />
-            <a href="https://www.fathym.com/docs/guides/deploying/frameworks/svelte/" target="_blank">Fathym's deploying Svelte guide</a>
+            <a href="https://www.fathym.com/docs/guides/deploying/frameworks/svelte/" rel="noreferrer" target="_blank">Fathym's deploying Svelte guide</a>
             <br />
-            <a href="https://www.fathym.com/blog/articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries" target="_blank">Why you should deploy a Svelte website instead of watching documentaries</a>
+            <a href="https://www.fathym.com/blog/articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries" rel="noreferrer" target="_blank">Why you should deploy a Svelte website instead of watching documentaries</a>
             <br />
-            <a href="https://www.fathym.com/svelte-deployment" target="_blank">See How Svetle compares to other Javascript frameworks</a>
+            <a href="https://www.fathym.com/svelte-deployment" rel="noreferrer" target="_blank">See How Svetle compares to other Javascript frameworks</a>
           </Paper>
         </Box>
       </div>
