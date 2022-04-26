@@ -3,7 +3,6 @@ import final from './pt.png';
 import './App.css';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
 
 function App() {
   return (
