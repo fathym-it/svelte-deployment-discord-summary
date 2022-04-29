@@ -1,20 +1,20 @@
-name: { { Name } }
+name: GitHub Artifacts - Release
 
 on:
   push:
-    branches: [{ { Branches } }]
+    branches: [main]
   pull_request:
-    branches: [{ { Branches } }]
+    branches: [main]
 
 permissions: write-all
 
 env:
-  Branches: { { Branches } }
-  MainBranch: { { MainBranch } }
-  NPMRegistry: { { NPMRegistry } }
-  InstallCommand: { { InstallCommand } }
-  BuildCommand: { { BuildCommand } }
-  Output: { { Output } }
+  Branches: main
+  MainBranch: main
+  NPMRegistry: https://registry.npmjs.org/
+  InstallCommand: npm ci
+  BuildCommand: npm run build
+  Output: ./build
 
 jobs:
   build:
