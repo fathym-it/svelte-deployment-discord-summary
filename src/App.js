@@ -1,5 +1,5 @@
 import logo from './fathym.svg';
-import final from './pt.png';
+import final from './microfe.png';
 import './App.css';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h3>Welcome to Fathym's first Discord live stream</h3>
+        <h2>Welcome to Fathym's Discord live stream</h2>
+        <h3>How to modularize your monolith</h3>
         <h4>Don't have an invite? Don't worry join <a href="https://discord.gg/qh3eCBgpC5" rel="noreferrer" target="_blank">here</a></h4>
       </header>
       <div>
@@ -32,9 +33,9 @@ function App() {
             }}>
 
             <img src={final} className="App-logo" alt="logo" />
-            <p>In this livestream, we'll fork Fathym's Svelte template and use it to build a photo gallery – like “Photo Timez” above.
-              We'll push the photo gallery to GitHub and show how easy it is to update to any GitHub build version in Fathym.
-              Then, we'll preview the live photo gallery hosted in Fathym and discuss some of the cool things Fathym's doing behind the scenes with micro frontends to make your life easier.</p>
+            <p>Director of Engineering, Jeremy Tomlinson, will walk you through the ins and outs of breaking down and modularizing a monolithic frontend.
+              With Fathym, you have the freedom to host your website or web app as a monolithic frontend or as modular "micro apps" or "micro frontends".
+              Jeremy will take a monolith example and show how to break apart different sections of the site as modular apps or "routes" built with different frameworks, but hosted together on the same domain.</p>
           </Paper>
           <Paper elevation={3}
             sx={{
@@ -44,46 +45,30 @@ function App() {
               padding: '20px',
               fontSize: '20px'
             }}>
-            <h3>Here's what you'll need to code along</h3>
+            <h3>Here's what you'll need to follow along</h3>
             <hr />
             <div>
               <p>
                 Fathym Account <a href="https://www.fathym.com/dashboard/" target="_blank" rel="noreferrer">Signup</a>
               </p>
             </div>
-            <div>
-              <p>
-                Github Account <a href="https://github.com/join" target="_blank" rel="noreferrer">Sign up</a>
-              </p>
-            </div>
-            <div>
-              <p>
-                VS Code <a href="https://code.visualstudio.com/download" target="_blank" rel="noreferrer">Download</a>
-              </p>
-            </div>
-            <div>
-              Nodejs <a href="https://nodejs.org/en/download/" target="_blank" rel="noreferrer">Download</a>
-            </div>
-            <br/>
-            <div>
-              Photos for your gallery
-            </div>
+            <br />
           </Paper>
           <Paper elevation={3}
             sx={{
               width: '50vw',
-              mb:'30px',
+              mb: '30px',
               pb: '20px',
               padding: '20px',
               fontSize: '20px'
             }}>
-            <h3>Want to learn more?</h3>
+            <h3>Want to learn more about micro frontends??</h3>
             <hr />
-            <a href="https://www.fathym.com/docs/guides/deploying/frameworks/svelte/" rel="noreferrer" target="_blank">Fathym's deploying Svelte guide</a>
+            <a href="https://www.fathym.com/blog/articles/2022/may/2022-05-31-modularize-your-monolith-one-page" rel="noreferrer" target="_blank">How to modularize your monolith frontend, transition at your pace</a>
             <br />
-            <a href="https://www.fathym.com/blog/articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries" rel="noreferrer" target="_blank">Why you should deploy a Svelte website instead of watching documentaries</a>
+            <a href="https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends" rel="noreferrer" target="_blank">Using our arcade to help explain micro frontends</a>
             <br />
-            <a href="https://www.fathym.com/svelte-deployment" rel="noreferrer" target="_blank">See How Svelte compares to other Javascript frameworks</a>
+            <a href="https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer" rel="noreferrer" target="_blank">A simple Micro Frontends explainer</a>
           </Paper>
         </Box>
       </div>
